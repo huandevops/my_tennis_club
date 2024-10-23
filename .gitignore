@@ -1,0 +1,75 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Django migrations
+**/migrations/
+**/migrations/*
+
+# If you are using SQLite3 as a database, ignore the database file
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore virtual environment
+venv/
+ENV/
+env/
+*.env
+
+# Ignore IDE specific folders/files
+.idea/
+.vscode/
+*.swp
+
+# Ignore static and media files (if they are generated)
+staticfiles/
+media/
+
+# Ignore any compiled code
+*.so
+
+# Ignore pipenv and poetry files
+Pipfile.lock
+poetry.lock
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore macOS specific files
+.DS_Store
+*.appledouble
+.LSOverride
+
+# Ignore Node modules (if you're using npm or yarn)
+node_modules/
+
+# Azure App Service specific
+.local/
+.gitignore.production
